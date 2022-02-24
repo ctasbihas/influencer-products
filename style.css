@@ -1,0 +1,124 @@
+/* Font styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common styles */
+body{
+     font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation bar */
+.navigation-bar{
+     justify-content: space-between;
+     margin: 27px 50px 0 50px;
+}
+
+nav{
+     display: flex;
+     margin-top: 10px;
+}
+
+nav>ul{
+     display: flex;
+}
+
+nav>ul>li{
+     list-style: none;
+}
+
+nav>ul>li a{
+     text-decoration: none;
+     color: black;
+     margin-right: 2em;
+     justify-content: right;
+}
+
+/* Top Banner */
+.top-banner{
+     display: flex;
+     padding-bottom: 100px;
+}
+.dslr-info{
+     height: 270px;
+     width: 582px;
+     margin: 70px 0 0 50px;
+}
+.dslr-info h1{
+     font-size: 50px;
+     font-weight: bold;
+}
+.dslr-info p{
+     font-weight: 600;
+}
+.dslr-info button{
+     background-color: #E02C6D;
+     color: white;
+     border: none;
+     border-radius: 41px;
+     font-weight: 700;
+     height: 44px;
+     width: 196px;
+     padding: 10px 24px;
+}
+.main-camera{
+     height: 200px;
+     width: 200px;
+     margin: 70px 150px 0 60px;
+}
+
+/* Top brands */
+.companys{
+     border-top: 1px solid rgba(145, 135, 135, 0.247);
+     border-bottom: 1px solid rgba(145, 135, 135, 0.247);
+     margin: 150px 120px;
+}
+.top-brand div img{
+     margin: 0 11px 0 55px;
+     height: 40px;
+     width: 70px;
+}
+/* Popular Collection */
+.popular-coll>h1{
+     color: #3A3A3A;
+     font-weight: 600;
+     font-size: 28px;
+     text-align: center;
+}
+.products{
+     height: 1662px;
+     width: 1047px;
+     margin-left: 50px;
+     display: grid;
+     grid-gap: 10px;
+     grid-template-columns: repeat(3, 1fr);
+}
+.product{
+     border-radius: 10px;
+     box-shadow: 2px 4px 8px 1px #969696;
+     width: 329px;
+     height: 476px;
+}
+.product-img{
+     width: 300px;
+     height: 256px;
+     margin: 17px 15px 0 14px;
+}
+.product-details{
+     height: 170px;
+     width: 196px;
+     margin-left: 14px;
+}
+.product-details h1{
+     font-size: 25px;
+     font-weight: 500;
+     /* line-height: 40px; */
+     /* width: 151px; */
+}
+.product-details h3{
+     font-size: 20px;
+}
+.color{
+     color: orange;
+}
+.product-details p{
+     font-size: 10px;
+}
