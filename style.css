@@ -36,11 +36,13 @@ nav>ul>li a{
 .top-banner{
      display: flex;
      padding-bottom: 100px;
+     margin: 0 auto;
 }
 .dslr-info{
      height: 270px;
-     width: 582px;
-     margin: 70px 0 0 50px;
+     width: 502px;
+     margin: 10px;
+     margin-left: 100px;
 }
 .dslr-info h1{
      font-size: 50px;
@@ -60,9 +62,9 @@ nav>ul>li a{
      padding: 10px 24px;
 }
 .main-camera{
-     height: 200px;
-     width: 200px;
-     margin: 70px 150px 0 60px;
+     height: 450px;
+     width: 450px;
+     margin: 20px 0 0 120px;
 }
 
 /* Top brands */
@@ -86,7 +88,7 @@ nav>ul>li a{
 .products{
      height: 1662px;
      width: 1047px;
-     margin-left: 50px;
+     margin: 0px auto;
      display: grid;
      grid-gap: 10px;
      grid-template-columns: repeat(3, 1fr);
@@ -121,4 +123,55 @@ nav>ul>li a{
 }
 .product-details p{
      font-size: 10px;
+}
+.see-more button{
+     background-color: rgba(255, 255, 255, 0);
+     border: none;
+     color: rgba(224, 44, 109, 0.87);
+     font-size: 16px;
+     font-weight: bold;
+     height: 24px;
+     width: 105px;
+     float: right;
+     margin-top: 50px;
+}
+
+/* Features of the product */
+.pro-fea{
+     display: flex;
+     align-items: center;
+}
+.pro-fea-img img{
+     margin: 100px;
+}
+.pro-fea-det{
+     height: 224px;
+     width: 610px;
+}
+.pro-fea-det h1{
+     height: 60px;
+     width: 610px;
+}
+.pro-fea-det p{
+     height: 88px;
+     width: 501px;
+}
+.pro-fea-det button{
+     background: #E02C6D;
+     border: none;
+     border-radius: 10px;
+     height: 44px;
+     width: 155px;
+}
+
+/* Footer part */
+footer{
+     background-color: rgb(6, 1, 27);
+     color: white;
+     padding: 40px;
+     text-align: center;
+}
+.fa-brands{
+     margin: 10px;
+     font-size: 35px;
 }
