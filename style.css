@@ -5,6 +5,17 @@
 body{
      font-family: 'Poppins', sans-serif;
 }
+body button{
+     background-image: linear-gradient(tomato, red);
+}
+body button:hover{
+     background-image: linear-gradient(90deg, cyan, blue);
+     transition: background-image 1s ease;
+}
+.product img:hover{
+     transform: scale(1.5);
+     transition: transform 1s ease-in-out;
+}
 
 /* Navigation bar */
 .navigation-bar{
@@ -43,6 +54,7 @@ nav>ul>li a{
      width: 502px;
      margin: 10px;
      margin-left: 100px;
+     margin-top: 50px;
 }
 .dslr-info h1{
      font-size: 50px;
@@ -52,7 +64,6 @@ nav>ul>li a{
      font-weight: 600;
 }
 .dslr-info button{
-     background-color: #E02C6D;
      color: white;
      border: none;
      border-radius: 41px;
@@ -61,10 +72,11 @@ nav>ul>li a{
      width: 196px;
      padding: 10px 24px;
 }
-.main-camera{
+.main-camera img{
+     border-radius: 50%;
      height: 450px;
+     margin: 10px 0 0 120px;
      width: 450px;
-     margin: 20px 0 0 120px;
 }
 
 /* Top brands */
@@ -72,6 +84,7 @@ nav>ul>li a{
      border-top: 1px solid rgba(145, 135, 135, 0.247);
      border-bottom: 1px solid rgba(145, 135, 135, 0.247);
      margin: 150px 120px;
+     padding: 10px;
 }
 .top-brand div img{
      margin: 0 11px 0 55px;
@@ -103,6 +116,7 @@ nav>ul>li a{
      width: 300px;
      height: 256px;
      margin: 17px 15px 0 14px;
+     overflow: hidden;
 }
 .product-details{
      height: 170px;
@@ -125,13 +139,13 @@ nav>ul>li a{
      font-size: 10px;
 }
 .see-more button{
-     background-color: rgba(255, 255, 255, 0);
      border: none;
-     color: rgba(224, 44, 109, 0.87);
+     color: white;
      font-size: 16px;
-     font-weight: bold;
-     height: 24px;
-     width: 105px;
+     border-radius: 41px;
+     font-weight: 500;
+     height: 40px;
+     width: 155px;
      float: right;
      margin-top: 50px;
 }
@@ -157,9 +171,9 @@ nav>ul>li a{
      width: 501px;
 }
 .pro-fea-det button{
-     background: #E02C6D;
+     color: white;
      border: none;
-     border-radius: 10px;
+     border-radius: 41px;
      height: 44px;
      width: 155px;
 }
